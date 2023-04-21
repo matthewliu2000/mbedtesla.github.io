@@ -13,7 +13,9 @@ brought to you by David Gomez, Matthew Liu, & Adam Rappaport
 
 ---
 ## Project Idea <a name = "projectidea"></a>
-Bluetooth controlled mbed robot with similar functionality as a real car such as moving, turning, blinking lights, honking horn, and collision detection.
+Bluetooth controlled mbed robot with similar functionality as a real car such as moving, turning, blinking lights, honking horn, and collision detection.  
+
+The robot will utilize the adafruit bluetooth app and module in order to be controlled. The robot will be able to be controlled for driving forwards, backwards, and turning. The robot will additionally have headlights and breaklights with different levels of brightness. The speaker can be controlled to honk. Additionally, the robot will feature a LIDAR sensor in the front that will prevent crashing into objects. All this functionality will be handled with mbed RTOS threads.  
 
 ----
 ## Instructions <a name = "instructions"></a>
@@ -22,25 +24,31 @@ Back to [Top](#top)!
 
 ----
 ## Hardware <a name = "hardware"></a> 
+**Hardware and Comm Protocol Used**  
+- LEDS: digital PWM pXX, pXX, pXX, pXX 
+- SONAR: Trig p6, Echo p7  
+- LIDAR: I2C (SCL p27, SDA p28)  
+- Bluetooth: RS232 Serial (Rx p27, Tx p28)  
+- Speaker:  
+- DC Motors:  
+- LCD Display:  
 
 ![wiring](./assets/wiring.jpg) 
 
 ----
-## Software <a name = "software"></a>  
-**Pipelined MIPS Processor in Verilog**  
-- Implemented pipelined MIPS processor that handles data, structural, and control hazards  with load-to-use stall, data forwarding, and branch prediction with flushing
-- [source code](https://drive.google.com/drive/folders/1TNty7M6peybXFbq6Ig-HpSm_tmf9db-7?usp=sharing)
+## Software <a name = "software"></a> 
+**Code Snippets**
+![collision_detection](./assets/collision_detection.jpg)  
 
-**Single-Cycle MIPS Processor in Verilog**  
-- Implemented a single-cycle MIPS processor instructions with fetch, decode, execute, memory, writeback stages for assembly instructions (slt, j, jal, lui, ori)
-- [source code](https://drive.google.com/drive/folders/1g00Eag3VHpeP1MRsrJ8K-g4yz4lYnVnp?usp=sharing)
+![bluetooth state machine](./assets/state_machine.jpg)  
 
-Back to [Top](#top)!
+**Full Source Code**  
+- [source code](https://drive.google.com/drive/folders/1TNty7M6peybXFbq6Ig-HpSm_tmf9db-7?usp=sharing)  
 
 ----
 ## Demo Video <a name = "demo"></a>
 
-[Chopin - Fantaisie Impromptu](https://www.youtube.com/watch?v=hCwSzsDiuXU)
+[Chopin - Fantaisie Impromptu](https://www.youtube.com/watch?v=hCwSzsDiuXU)  
 
 ![drone sim](https://media.giphy.com/media/P2zNidvSMBVJPJ1LjU/giphy.gif)  
 
