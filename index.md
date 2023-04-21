@@ -37,7 +37,8 @@ Back to [Top](#top)!
 
 ----
 ## Software <a name = "software"></a> 
-**Code Snippets**
+**Code Snippets**  
+
 ![collision_detection](./assets/collision_detection.jpg)  
 
 ![bluetooth state machine](./assets/state_machine.jpg)  
