@@ -4,7 +4,7 @@ brought to you by David Gomez, Matthew Liu, & Adam Rappaport
   
 ![Mbed Tesla](./assets/mbedtesla.png)
 
-# Navigation <a name ="top"></a>
+# Navigation <a name ="navi"></a>
 - [Project Idea](#projectidea)  
 - [Instructions](#instructions)  
 - [Hardware](#hardware)  
@@ -20,7 +20,11 @@ The robot will utilize the adafruit bluetooth app and module in order to be cont
 ----
 ## Instructions <a name = "instructions"></a>
 
-Back to [Top](#top)!
+1.  
+2.  
+3.  
+4.  
+5.   
 
 ----
 ## Hardware <a name = "hardware"></a> 
@@ -53,4 +57,4 @@ Back to [Top](#top)!
 
 ![drone sim](https://media.giphy.com/media/P2zNidvSMBVJPJ1LjU/giphy.gif)  
 
-Back to [Top](#top)!
+Back to [Navigation](#navi)!
