@@ -1,6 +1,6 @@
 # Mbed Tesla
 
-The Future of Awesome 
+brought to you by David Gomez, Matthew Liu, & Adam Rappaport
   
 ![Mbed Tesla](./assets/mbedtesla.png)
 
