@@ -53,8 +53,8 @@ The robot will utilize the adafruit bluetooth app and module in order to be cont
 ----
 ## Demo Video <a name = "demo"></a>
 
-[Chopin - Fantaisie Impromptu](https://www.youtube.com/watch?v=hCwSzsDiuXU)  
+[Mbed Tesla Demo](https://clipchamp.com/watch/pJKSNSl9IBr)  
 
-![drone sim](https://media.giphy.com/media/P2zNidvSMBVJPJ1LjU/giphy.gif)  
+![drone sim](https://clipchamp.com/watch/pJKSNSl9IBr)  
 
 Back to [Navigation](#navi)!
