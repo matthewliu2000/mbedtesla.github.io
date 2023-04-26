@@ -19,23 +19,21 @@ The robot will utilize the adafruit bluetooth app and module in order to be cont
 
 ----
 ## Instructions <a name = "instructions"></a>
-
-1.  
-2.  
-3.  
-4.  
-5.   
+To recreate the project:  
+1.  Build robot chassis with motors and attach breadboards as shown in pictures  
+2.  Attach embed devices and wire appropriately according to [Hardware](#hardware)!   
+3.  Compile and load source code onto main mbed and sonar mbed  
+4.  Connect battery packs to circuit to power mbed  
+5.  Connect via BlueFruit Connect on android/iphone  
 
 ----
 ## Hardware <a name = "hardware"></a> 
 **Hardware and Comm Protocol Used**  
 - LEDS: digital PWM pXX, pXX, pXX, pXX 
-- SONAR: Trig p6, Echo p7  
-- LIDAR: I2C (SCL p27, SDA p28)  
+- SONAR: Trig p6, Echo p7   
 - Bluetooth: RS232 Serial (Rx p27, Tx p28)  
 - Speaker:  
 - DC Motors:  
-- LCD Display:  
 
 ![wiring](./assets/wiring.jpg) 
 
@@ -43,12 +41,13 @@ The robot will utilize the adafruit bluetooth app and module in order to be cont
 ## Software <a name = "software"></a> 
 **Code Snippets**  
 
-![collision_detection](./assets/collision_detection.jpg)  
+![collision_detection algorithm](./assets/collision_detection.jpg)  
 
-![bluetooth state machine](./assets/state_machine.jpg)  
+![bluetooth control algorithm](./assets/state_machine.jpg)  
 
 **Full Source Code**  
-- [source code](https://drive.google.com/drive/folders/1TNty7M6peybXFbq6Ig-HpSm_tmf9db-7?usp=sharing)  
+- [source code main mbed](./assets/source_code.c)  
+- [source code sonar mbed](./assets/source_code2.c)  
 
 ----
 ## Demo Video <a name = "demo"></a>
