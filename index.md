@@ -13,9 +13,9 @@ brought to you by David Gomez, Matthew Liu, & Adam Rappaport
 
 ---
 ## Project Idea <a name = "projectidea"></a>
-Bluetooth controlled mbed robot with similar functionality as a real car such as moving, turning, blinking lights, honking horn, and collision detection.  
+Bluetooth controlled mbed robot with similar functionality as a real car such as moving, turning, blinking lights to signal, honking horn, and collision detection.  
 
-The robot will utilize the adafruit bluetooth app and module in order to be controlled. The robot will be able to be controlled for driving forwards, backwards, and turning. The robot will additionally have headlights and breaklights with different levels of brightness. The speaker can be controlled to honk. Additionally, the robot will feature a LIDAR sensor in the front that will prevent crashing into objects. All this functionality will be handled with mbed RTOS threads.  
+The robot will utilize the adafruit bluetooth app and module in order to be controlled. The robot will be able to be controlled for driving forwards, backwards, and turning. The robot will additionally have headlights and breaklights with different levels of brightness. The speaker can be controlled to honk. Additionally, the robot will feature a SONAR sensor in the front that will prevent crashing into objects. All functionality will be handled concurrently with mbed RTOS threads.  
 
 ----
 ## Instructions <a name = "instructions"></a>
@@ -53,14 +53,5 @@ To recreate the project:
 ## Demo Video <a name = "demo"></a>
 
 [Mbed Tesla Demo](https://clipchamp.com/watch/pJKSNSl9IBr)  
-
-![Mbed Tesla](https://clipchamp.com/watch/pJKSNSl9IBr/embed)  
-
-![Mbed Tesla](<div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/pJKSNSl9IBr?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/pJKSNSl9IBr/embed" width="640" height="360"></iframe>
-          </div>)  
 
 Back to [Navigation](#navi)!
