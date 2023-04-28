@@ -43,7 +43,7 @@ To recreate the project:
 
 ![collision_detection algorithm](./assets/collisiondetection.png)  
 
-![bluetooth control algorithm](./assets/bluetoooth.png)  
+![bluetooth control algorithm](./assets/bluetooth.png)  
 
 **Full Source Code**  
 - [source code main mbed](./assets/robot.cpp)  
