@@ -41,9 +41,9 @@ To recreate the project:
 ## Software <a name = "software"></a> 
 **Code Snippets**  
 
-![collision_detection algorithm](./assets/collisiondetection.jpg)  
+![collision_detection algorithm](./assets/collisiondetection.png)  
 
-![bluetooth control algorithm](./assets/bluetoooth.jpg)  
+![bluetooth control algorithm](./assets/bluetoooth.png)  
 
 **Full Source Code**  
 - [source code main mbed](./assets/robot.cpp)  
