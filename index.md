@@ -40,9 +40,9 @@ To recreate the project:
 ----
 ## Software <a name = "software"></a> 
 **Code Snippets**  
-
+Collission detection:  
 ![collision_detection algorithm](./assets/collisiondetection.png)  
-
+Bluetooth:  
 ![bluetooth control algorithm](./assets/bluetooth.png)  
 
 **Full Source Code**  
