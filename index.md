@@ -28,7 +28,7 @@ To recreate the project:
 
 ----
 ## Hardware <a name = "hardware"></a> 
-**List of Devices/Comm Protocol/Helpful components**  
+**List of Devices/Comm Protocol/Helpful Components**  
 - LEDS: digital PWM pXX, pXX, pXX, pXX 
 - SONAR: Trig p6, Echo p7 (HC-SR04)  
 - Bluetooth: RS232 Serial (Rx p27, Tx p28)  
