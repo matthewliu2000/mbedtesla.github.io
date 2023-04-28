@@ -39,7 +39,7 @@ To recreate the project:
 - Robot chassis
 - mbed ARM microcontrontroller (LPC1768)  
 
-![wiring](./assets/wiring.png) 
+![wiring](./assets/wiring1.png) 
 
 ----
 ## Software <a name = "software"></a> 
@@ -47,7 +47,7 @@ To recreate the project:
 Collission detection:  
 ![collision_detection algorithm](./assets/collisiondetection.png)  
 Bluetooth:  
-![bluetooth control algorithm](./assets/bluetooth.png)  
+![bluetooth control algorithm](./assets/bluetooth1.png)  
 
 **Full Source Code**  
 - [source code main mbed](./assets/robot.cpp)  
