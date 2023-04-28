@@ -39,7 +39,7 @@ To recreate the project:
 - Robot chassis
 - mbed ARM microcontrontroller (LPC1768)  
 
-![wiring](./assets/wiring.jpg) 
+![wiring](./assets/wiring.png) 
 
 ----
 ## Software <a name = "software"></a> 
