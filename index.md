@@ -21,7 +21,7 @@ The robot will utilize the adafruit bluetooth app and module in order to be cont
 ## Instructions <a name = "instructions"></a>
 To recreate the project:  
 1.  Build robot chassis with motors and attach breadboards as shown in pictures  
-2.  Attach embed devices and wire appropriately according to [Hardware](#hardware)!   
+2.  Attach embed devices and wire appropriately according to [Hardware](#hardware)   
 3.  Compile and load source code onto main mbed and sonar mbed  
 4.  Connect battery packs to circuit to power mbed  
 5.  Connect via BlueFruit Connect on android/iphone  
@@ -41,13 +41,13 @@ To recreate the project:
 ## Software <a name = "software"></a> 
 **Code Snippets**  
 
-![collision_detection algorithm](./assets/collision_detection.jpg)  
+![collision_detection algorithm](./assets/collisiondetection.jpg)  
 
-![bluetooth control algorithm](./assets/state_machine.jpg)  
+![bluetooth control algorithm](./assets/bluetoooth.jpg)  
 
 **Full Source Code**  
-- [source code main mbed](./assets/source_code.c)  
-- [source code sonar mbed](./assets/source_code2.c)  
+- [source code main mbed](./assets/robot.cpp)  
+- [source code sonar mbed](./assets/sensor.cpp)  
 
 ----
 ## Demo Video <a name = "demo"></a>
