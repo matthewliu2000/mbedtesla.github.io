@@ -28,12 +28,16 @@ To recreate the project:
 
 ----
 ## Hardware <a name = "hardware"></a> 
-**Hardware and Comm Protocol Used**  
+**List of Devices/Comm Protocol/Helpful components**  
 - LEDS: digital PWM pXX, pXX, pXX, pXX 
-- SONAR: Trig p6, Echo p7   
+- SONAR: Trig p6, Echo p7 (HC-SR04)  
 - Bluetooth: RS232 Serial (Rx p27, Tx p28)  
-- Speaker:  
-- DC Motors:  
+- Speaker: Class D audio amplifier (TPA2005D1)  
+- DC Motors: H-bridge motor driver  
+- DC barrel jack adapter  
+- 1000 μF electrolytic decoupling capacitor  
+- Robot chassis
+- mbed ARM microcontrontroller (LPC1768)  
 
 ![wiring](./assets/wiring.jpg) 
 
