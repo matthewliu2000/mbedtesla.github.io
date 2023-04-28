@@ -57,5 +57,6 @@ Bluetooth:
 ## Demo Video <a name = "demo"></a>
 
 [Mbed Tesla Demo](https://clipchamp.com/watch/pJKSNSl9IBr)  
+[Youtube](https://www.youtube.com/watch?v=ZSQHcZVFggU&ab_channel=MatthewLiu)  
 
 Back to [Navigation](#navi)!
